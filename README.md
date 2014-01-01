@@ -1,3 +1,3 @@
 LunyGo
 ======
-Tutaj bedzie opis..
+Początki prostego frameworka.
