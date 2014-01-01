@@ -1,0 +1,28 @@
+.map {
+    position: relative;
+}
+.gracz {
+    position: absolute;
+}
+.player-layer {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 292px;
+}
+.window {
+    width: 600px;
+    height: 550px;
+    border: 1px solid #000;
+    overflow: hidden;
+    background: #000;
+    z-index: 2;
+}
+#console {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #000;
+    overflow: auto;
+    padding: 10px;
+    font-family: 'Lucida Console';
+}
