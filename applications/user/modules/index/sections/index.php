@@ -13,6 +13,7 @@ class user_index_index {
     {
         $this->kernel->modules('template')->getTemp('header');
         echo '<h3>Twoja ranga '.$this->kernel->modules('user')->checkLogin().' to: '.$this->kernel->modules('user')->checkGroup().'</h3>';
+    
     }
 	
 	

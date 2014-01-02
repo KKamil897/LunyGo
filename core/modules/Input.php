@@ -1,6 +1,7 @@
 <?php
 
 class Input {
+    
 
     private $kernel;
 

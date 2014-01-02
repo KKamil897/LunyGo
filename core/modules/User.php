@@ -2,6 +2,7 @@
 
 class User {
 
+
     private $kernel;
     private $group;
     private $login;

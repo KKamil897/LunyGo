@@ -21,16 +21,19 @@ class Kernel {
         $this->modules('data');
         $this->modules('input');
         $this->modules('session');
+        $this->modules('statistics');
         $this->startApplication();
     }
     public function modules($module)
     {
         $module = ucfirst($module);
+                
         if(isset($this->modules[$module]))
         {
             return $this->modules[$module];
         } else {
             $this->modules[$module] = new $module($this);
+
             return $this->modules[$module];
         }
     }

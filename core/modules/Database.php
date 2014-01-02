@@ -1,6 +1,7 @@
 <?php
 
 class Database {
+    
 
     private $kernel;
     private $dbh;

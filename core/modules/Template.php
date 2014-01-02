@@ -1,6 +1,7 @@
 <?php
 
 class Template {
+    
 
     private $kernel;
     public $content = NULL;
