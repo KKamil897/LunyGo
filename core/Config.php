@@ -1,15 +1,15 @@
 <?php
-require_once("Mysql.php");
+require_once("Sql.php");
 
 
 $this->setData('defaults',array(
         'title' => 'tytuł')
 );
 $this->setData('database',array(
-    'mysql_host' => mysql_host,
-    'mysql_name' => mysql_name,
-    'mysql_user' => mysql_user,
-    'mysql_pass' => mysql_pass
+    'sql_host' => sql_host,
+    'sql_name' => sql_name,
+    'sql_user' => sql_user,
+    'sql_pass' => sql_pass
 ));
 
 

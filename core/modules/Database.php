@@ -16,10 +16,10 @@ class Database {
         );
 
         $conn = $this->kernel->modules('data')->getData('database');
-        $dsn = 'mysql:host=' . $conn['mysql_host'] . ';dbname=' . $conn['mysql_name'];
+        $dsn = 'mysql:host=' . $conn['sql_host'] . ';dbname=' . $conn['sql_name'];
 
         try{
-            $this->dbh = new PDO($dsn, $conn['mysql_user'], $conn['mysql_pass'], $options);
+            $this->dbh = new PDO($dsn, $conn['sql_user'], $conn['sql_pass'], $options);
         }
         catch(PDOException $e){
             $this->error = $e->getMessage();
